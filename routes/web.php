@@ -33,3 +33,40 @@ Route::get('/f3', function () {
     return view('car.f3');
 })->name('cars.f3');
 
+
+Route::get('/tasks', function () {
+    $data = [
+        [
+            'id' => 1,
+            'name' => 'amy'
+        ],
+        [
+            'id' => 2,
+            'name' => 'bob'
+        ],
+        [
+            'id' => 3,
+            'name' => 'cat'
+        ]
+    ];
+    // return view('tasks', ['tasks' => Task::all()]);
+    return view('tasks', ['tasks' => $data]);
+});
+
+
+
+// Route::get('/tasks', function () {
+//     $data = [
+//         ['id' => 1,
+//         'name' => 'amy'
+//         ],
+//         ['id' => 2,
+//         'name' => 'bob'
+//          ],
+//         ['id' => 3,
+//         'name' => 'cat'
+//         ]
+//         ];
+//     // return view('tasks', ['tasks' => Task::all()]);
+//     return view('tasks')->with('tasks', $data);
+// });

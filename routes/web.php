@@ -75,3 +75,23 @@ Route::get('/tasks', function () {
 //     // return view('tasks', ['tasks' => Task::all()]);
 //     return view('tasks')->with('tasks', $data);
 // });
+
+// 餐廳 
+Route::get('/foods', function () {
+    return view('food.index');
+})->name('foods.index');
+
+Route::get('/food_f1', function () {
+    return view('food.f1');
+})->name('foods.f1');
+
+Route::get('/food_f2', function () {
+    return view('food.f2');
+})->name('foods.f2');
+
+Route::get('/food_f3', function () {
+    return view('food.f3');
+})->name('foods.f3');
+
+
+

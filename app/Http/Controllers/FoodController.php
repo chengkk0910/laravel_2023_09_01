@@ -11,9 +11,23 @@ class FoodController extends Controller
      */
     public function index()
     {
-        $data = 'Hello data';
+        $data = [
+            [
+                'id' => 1,
+                'name' => 'amy',
+            ],
+            [
+                'id' => 2,
+                'name' => 'bob',
+            ],
+            [
+                'id' => 3,
+                'name' => 'cat',
+            ],
+
+        ];
         // dd('hello FoodController index123');
-        return view('food.index')->with('data',$data);
+        return view('food.index')->with('data', $data);
     }
 
     /**

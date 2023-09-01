@@ -33,6 +33,11 @@ Route::get('/f3', function () {
     return view('car.f3');
 })->name('cars.f3');
 
+Route::get('/test', function () {
+    return view('test.test');
+})->name('test');
+
+
 
 Route::get('/tasks', function () {
     $data = [

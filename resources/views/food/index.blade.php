@@ -10,9 +10,9 @@
 <body>
     <div class="container mt-3">
         <div class="row">
-            <div class="col me-5">
+            <div class="col">
                 <a href="{{route('foods.f1')}}">
-                    <img src="{{asset('images/01.png')}}" alt="" srcset="">
+                    <img src="{{asset('images/01.png')}}" alt="" srcset="" class="w-100">
                 </a>
             </div>          
         </div>

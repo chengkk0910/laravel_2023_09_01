@@ -12,7 +12,7 @@
                 repellendus labore eveniet facilis optio officia rem!
             </div>
             <div class="col">
-                <img src="https://picsum.photos/id/20/800/500" alt="" srcset="" class="w-100">
+                <img src="https://picsum.photos/id/24/800/500" alt="" srcset="" class="w-100">
             </div>
         </div>
     </div>
